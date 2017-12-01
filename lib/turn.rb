@@ -24,3 +24,7 @@ def position_taken?(board, index)
 end
 
 def move(board, index, position="X")
+  board[index] = position
+end
+
+def turn()
