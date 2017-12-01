@@ -33,14 +33,11 @@ def turn(board)
   while goodInput == false
     input = gets.strip
     index = to_i(input)
-    if valid_move?(board, index)
+    if valid_move?(board, index) == true && position_taken?(board, index) == false
       move(board, index)
       goodInput = true
     else 
       puts "Not a valid move! Try again"
     end
   end
-    
-  
-  
 end
