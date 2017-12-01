@@ -36,6 +36,7 @@ def turn(board)
     if valid_move?(board, index) == true && position_taken?(board, index) == false
       move(board, index)
       goodInput = true
+      display_board(board)
     else 
       puts "Not a valid move! Try again"
     end
