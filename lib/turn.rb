@@ -27,4 +27,4 @@ def move(board, index, position="X")
   board[index] = position
 end
 
-def turn()
+#def turn()
