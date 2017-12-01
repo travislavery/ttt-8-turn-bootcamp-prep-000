@@ -41,3 +41,5 @@ def turn(board)
     end
   end
 end
+
+def input_to_index(input)
