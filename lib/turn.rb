@@ -48,4 +48,5 @@ def input_to_index(input)
     return -1
   else
     return index -= 1
+  end
 end
