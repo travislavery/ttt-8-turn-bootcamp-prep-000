@@ -42,7 +42,7 @@ def turn(board)
   end
 end
 
-def input_to_index(input)
+def input_to_index()
   index = to_i(input)
   if !index 
     return -1
