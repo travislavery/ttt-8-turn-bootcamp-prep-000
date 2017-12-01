@@ -44,5 +44,8 @@ end
 
 def input_to_index(input)
   index = to_i(input)
-  index -= 1
+  if !index 
+    return -1
+  else
+    return index -= 1
 end
