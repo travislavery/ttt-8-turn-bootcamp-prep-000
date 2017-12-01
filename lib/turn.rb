@@ -32,7 +32,7 @@ def turn(board)
   goodInput = false
   while goodInput == false
     input = gets.strip
-    index = to_i(input)
+    index = to_i(input) - 1
     if valid_move?(board, index) == true && position_taken?(board, index) == false
       move(board, index)
       goodInput = true
