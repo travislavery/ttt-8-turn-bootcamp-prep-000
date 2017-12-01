@@ -35,8 +35,10 @@ def turn(board)
     index = to_i(input)
     if valid_move?(board, index)
       move(board, index)
+      goodInput = true
     else 
       puts "Not a valid move! Try again"
+    end
     
   
   
